@@ -10,3 +10,5 @@ function adjacentElementsProduct(inputArray) {
     }
     return greatestProduct
 }
+
+exports.adjacentElementsProduct = adjacentElementsProduct;
