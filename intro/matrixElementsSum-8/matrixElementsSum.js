@@ -19,3 +19,5 @@ function matrixElementsSum(matrix) {
     });
     return totalCost;
 }
+
+exports.matrixElementsSum = matrixElementsSum;
