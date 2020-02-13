@@ -1,12 +1,10 @@
-/* Q: After becoming famous, the CodeBots decided to move into a new building together.
-      Each of the rooms has a different cost, and some of them are free, but there's a
-      rumour that all the free rooms are haunted! Since the CodeBots are quite superstitious,
-      they refuse to stay in any of the free rooms, or any of the rooms below any of the free rooms.
-    Given matrix, a rectangular matrix of integers, where each value represents the cost of
-     the room, your task is to return the total sum of all rooms that are suitable
-     for the CodeBots (ie: add up all the values that don't appear below a 0).   */ 
+/* Q: Ticket numbers usually consist of an even number of digits.
+      A ticket number is considered lucky if the sum of the first half
+      of the digits is equal to the sum of the second half.
 
-// URL : https://app.codesignal.com/arcade/intro/level-2/xskq4ZxLyqQMCLshr
+      Given a ticket number n, determine if it's lucky or not.  */ 
+
+// URL : https://app.codesignal.com/arcade/intro/level-3/3AdBC97QNuhF6RwsQ/
 
 function isLucky(n) {
     let count = 0;
