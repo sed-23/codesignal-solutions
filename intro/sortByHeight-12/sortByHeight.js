@@ -8,3 +8,5 @@ function sortByHeight(a) {
     let sorted = a.filter(elem => elem > 0).sort((el1, el2) => el1 - el2);
     return a.map(el => el > 0 ? sorted.shift() : -1 )
 }
+
+exports.sortByHeight = sortByHeight;

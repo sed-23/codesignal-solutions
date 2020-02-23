@@ -4,7 +4,7 @@ var sortByHeight = require('./sortByHeight').sortByHeight;
 describe('Sort By Height.', function(){
     function testCondition(input, res) {
         it(`${res} is sorted by height.`, function() {
-            assert.equal(sortByHeight(input), res); 
+            assert.deepEqual(sortByHeight(input), res); 
         });
     }
     let testCases = [[[-1, 150, 190, 170, -1, -1, 160, 180], [-1, 150, 160, 170, -1, -1, 180, 190]],
