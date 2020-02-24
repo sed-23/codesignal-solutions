@@ -10,3 +10,5 @@ function reverseInParentheses(inputString) {
     }
     else return inputString;
 }
+
+exports.reverseInParentheses = reverseInParentheses;
