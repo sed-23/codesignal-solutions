@@ -13,3 +13,5 @@ function alternatingSums(a) {
     a.map((el, index) => index%2 == 0 ? res[0] += el : res[1] += el)
     return res 
 }
+
+exports.alternatingSums = alternatingSums;
