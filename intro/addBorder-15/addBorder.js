@@ -7,3 +7,5 @@ function addBorder(picture) {
     picture.unshift('*'.repeat(picture[0].length))
     return picture.map(el => `*${el}*`)
 }
+
+exports.addBorder = addBorder;
