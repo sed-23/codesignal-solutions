@@ -1,2 +1,2 @@
-# Codesignal-solutions
+# Codesignal-Solutions
 Solutions to code signal problems.
