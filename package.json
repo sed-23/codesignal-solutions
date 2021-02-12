@@ -1,0 +1,19 @@
+{
+  "name": "codesignal-solutions",
+  "version": "1.0.0",
+  "description": "Solutions for problems on code signal",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sed-23/codesignal-solutions.git"
+  },
+  "author": "sed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sed-23/codesignal-solutions/issues"
+  },
+  "homepage": "https://github.com/sed-23/codesignal-solutions#readme"
+}
