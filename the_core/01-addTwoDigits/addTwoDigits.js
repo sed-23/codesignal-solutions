@@ -1,8 +1,9 @@
-/* Question : Consider integer numbers from 0 to n - 1 written down along the circle in such a way that the distance between any two neighboring numbers is equal (note that 0 and n - 1 are neighboring, too).
-                Given n and firstNumber, find the number which is written in the radially opposite position to firstNumber. */ 
+/* Question : You are given a two-digit integer n. Return the sum of its digits. */ 
 
-// URL : https://app.codesignal.com/arcade/code-arcade/intro-gates/vExYvcGnFsEYSt8nQ
+// URL : https://app.codesignal.com/arcade/code-arcade/intro-gates/wAGdN6FMPkx7WBq66 
 
-function circleOfNumbers(n, firstNumber) {
-    return (firstNumber + n / 2) % n;
+function addTwoDigits(n) {
+    return (n / 10 | 0) + n % 10;
 }
+
+exports.addTwoDigits = addTwoDigits;
