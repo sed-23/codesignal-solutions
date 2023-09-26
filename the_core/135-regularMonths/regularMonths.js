@@ -12,14 +12,12 @@
 
 
 function regularMonths(currMonth) {
-    var time = currMonth.split("-");
-    var data = new Date(time[1],time[0]-1,1,12,00)
-    for (var i = 0; i < 24; i++){
-        data.setMonth(data.getMonth()+1);
-        if (data.getDay() == 1){
-        var mt = data.getMonth()+1;
-        if (mt.toString().length < 2){mt = "0"+mt}
-            return mt+"-"+data.getFullYear()
-        }
+    currMonth = currMonth.split('-')
+    let date = new Date(`${currMonth[0]}-01-${currMonth[1]}`)
+    date.setMonth(date.getMonth()+1)
+    while(date.getDay() !== 1) {
+        date.setMonth(date.getMonth()+1)
     }
+    date = date.toISOString().split('-')
+    return `${date[1]}-${date[0]}`
 }
