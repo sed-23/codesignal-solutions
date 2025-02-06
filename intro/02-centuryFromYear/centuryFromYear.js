@@ -9,3 +9,4 @@ function centuryFromYear(year) {
 }
 
 exports.centuryFromYear = centuryFromYear;
+
